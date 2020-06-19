@@ -3,6 +3,49 @@
 
 body {
     overflow-x: hidden;
+    font-family: 'Playfair Display', Georgia, Times, 'Times New Roman', serif;
+    color: #505962;
+}
+
+/*--- Navigation ---*/
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background-color: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-brand {
+    height: 3rem;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #c2abee;
+}
+
+/*-- Landing Page --*/
+
+.home-inner {
+  background-size: cover; 
+  height: 100vh;
+  background-image: url(assets\img\laptopGlasses2.jpg)!important;
+}
+
+
+/* body {
+    overflow-x: hidden;
     font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
     color: black;
 }
@@ -12,10 +55,10 @@ body {
     content: "";
     height: 4rem;
     margin-top: -4rem;
-}
+} */
 
 /*-- Navigation --*/
-.navbar {
+/* .navbar {
     text-transform: uppercase;
     font-weight: 600;
     font-size: .9rem;
@@ -42,7 +85,7 @@ body {
 .navbar-dark, .navbar-nav, .nav-link.active,
 .navbar-dark, .navbar-nav, .nav-link:hover {
   color: #c2abee!important;
-}
+} */
 
 /*.navbar .sr-only { (----- FIGURE OUT HOW TO KEEP NAVIGATION LINK COLORED, DEPENDING ON PAGE-----)   
   color: #c2abee;
@@ -50,15 +93,14 @@ body {
 
 /*--- Landing --*/
 
-.landing .home-wrap .home-inner {
-    background-image: url(assets/img/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg)!important; /*--- cant get to work ---*/
-  }
-
+/* .landing .home-wrap .home-inner {
+    background-image: url(assets/img/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg)!important;
+  } */
 
 
   /*--- Media Queries --*/
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .caption h1 {
       font-size: 2.3rem;
       letter-spacing: .15rem;
@@ -80,4 +122,4 @@ body {
       display: block;
       margin: 0 auto;
     }
-    }
+    } */
