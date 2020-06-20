@@ -28,6 +28,10 @@ body {
     height: 3rem;
 }
 
+.navbar-brand:hover {
+  color: #c2abee!important;
+}
+
 .navbar-nav li {
     padding-right: .7rem;
 }
