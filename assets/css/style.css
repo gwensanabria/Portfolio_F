@@ -38,8 +38,8 @@ body {
 /*-- Landing Page --*/
 
 .home-inner {
-  /* background-size: cover; 
-  height: 100vh; */
+  background-size: cover; 
+  height: 100vh;
   background-image: url(../img/laptopGlasses.jpg)!important;
 }
 
@@ -68,9 +68,54 @@ body {
 }
 
 .btn-lg {
-  
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem
 }
 
+.btn-lg.active,
+.btn-lg:hover {
+  background: #c2abee;
+  border-color: #c2abee;
+}
+
+/*-- Portfolio --*/
+
+.jumbotron {
+  background-image: url(../img/rain_key.jpg);
+  /* margin-top: 5rem; */
+  border-top: solid;
+  /* border-color: #505962; */
+  /* border-color: rgb(52, 53, 53); */
+  border-color: black;
+  /* border-color: blanchedalmond; */
+  border-width: 5rem!important;
+  /* border-radius: 2rem; */
+}
+
+/* .heading {
+  text-align: center;
+} */
+/* does same as class text-center */
+
+p {
+  z-index: 1;
+  color: white;
+}
+
+.feature h2 {
+  z-index: 1;
+  color: #c2abee;
+  font-size: 2rem!important;
+}
+
+h3 {
+  z-index: 1;
+  color: white;
+  font-size: 3rem;
+  
+}
 
 /* body {
     overflow-x: hidden;
