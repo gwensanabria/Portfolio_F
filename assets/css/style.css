@@ -178,6 +178,14 @@ hr .socket {
   margin-top: 3rem;
 }
 
+footer a {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+
+footer a:hover {
+  color: #c2abee;
+}
 /* footer {
   background-image: url(../img/wood.png);
 } */
