@@ -27,14 +27,14 @@
 			if ($mail_status) { ?>
 				<script language="javascript" type="text/javascript">
 					alert('Message Sent');
-					window.location = 'index.html';
+					window.location = 'index.php';
 				</script>
 			<?php
 			}
 			else { ?>
 				<script language="javascript" type="text/javascript">
 					alert('Error Message');
-					window.location = 'index.html';
+					window.location = 'index.php';
 				</script>
 			<?php
 			}
