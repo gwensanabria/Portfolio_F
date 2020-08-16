@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+    <script src="./assets/js/contact.js"></script>
     <link rel="stylesheet" href="assets/css/fixed.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -174,6 +176,34 @@
             <a href="https://github.com/gwensanabria" target="_blank"><i class="fab fa-github-square"></i></a>
             <a href="assets/Sanabria.resume.pdf" target="_blank"><i class="fas fa-file""></i></a>
         </div>
+
+        <div class="wrapper">
+        <div class="container">
+            <h1 style="color: black">Contact</h1>
+            <form action="./assets/php/contact.php" method="POST" class="form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" tabindex="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" tabindex="2" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter Message..." tabindex="4"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="btn sendb">Send Message!</button>
+                </div>
+            </form>
+        </div>
+        </div>
+
 
         <hr class="socket">
         &copy; Gwendoline Sanabria.
