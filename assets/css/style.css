@@ -165,6 +165,11 @@ footer {
 
 footer a {
   color: white;
+  padding-top: -10px;
+}
+
+footer .email {
+  font-size: 1rem;
 }
 
 footer svg.svg-inline--fa {
@@ -189,6 +194,7 @@ footer a {
   font-size: 1.6rem;
   margin: 1.2rem .5rem 0 0;
 }
+
 
 footer a:hover {
   color: #c2abee;
